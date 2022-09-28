@@ -10,6 +10,7 @@ export default defineConfig({
       entry: resolve(__dirname, "package/vue-bpmn-viewer/index.ts"),
       name: "VueBpmnViewer",
       fileName: "vue-bpmn-viewer",
+      formats: ["es", "umd"],
     },
     rollupOptions: {
       external: [
@@ -22,6 +23,10 @@ export default defineConfig({
       output: {
         globals: {
           vue: "Vue",
+          inherits: "inherits",
+          "bpmn-js/lib/Viewer": "Viewer",
+          "diagram-js/lib/navigation/zoomscroll": "ZoomScrollModule",
+          "diagram-js/lib/navigation/movecanvas": "MoveCanvasModule",
         },
       },
     },
