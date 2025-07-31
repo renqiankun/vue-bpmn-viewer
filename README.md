@@ -14,3 +14,7 @@
  # 二、 安装组件
     1. npm i vue-bpmn-viewer
 
+props
+   xml:string
+   flow:Array
+
