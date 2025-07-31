@@ -1,6 +1,6 @@
 # vue-bpmn-viewer
 
-私有bpmn流程进度查看组件
+私有bpmn流程进度查看组件 https://github.com/renqiankun/vue-bpmn-viewer
 ![image](https://user-images.githubusercontent.com/27206174/192699706-b1866e86-4a89-4ae2-9b54-06980bd92db9.png)
 
 ## 使用

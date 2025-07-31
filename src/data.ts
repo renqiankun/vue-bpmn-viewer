@@ -1,12 +1,12 @@
 export let flow:any = [
     {
       activityId: "Activity_1mtxna1",
-      activityName: "人事-mumu1",
+      activityName: "人事-1",
       activityType: "userTask",
       activityState: "REVIEW",
       activityStateName: "审批中",
       assignGroupType: "1",
-      assignGroupName: "木木1",
+      assignGroupName: "t1",
       isSequential: null,
       sequentialName: null,
       assignDetailList: [
@@ -15,7 +15,7 @@ export let flow:any = [
           createTime: "2022-09-27 11:05:53",
           endTime: null,
           assignee: "taskUser_117",
-          assigneeName: "木木1",
+          assigneeName: "t1",
           comment: null,
           activityState: "REVIEW",
           activityStateName: "审批中",
@@ -38,7 +38,7 @@ export let flow:any = [
           createTime: "2022-09-27 11:05:53",
           endTime: "2022-09-27 11:05:53",
           assignee: "taskUser_108",
-          assigneeName: "任坤3",
+          assigneeName: "r3",
           comment: "自动通过",
           activityState: "AGREE",
           activityStateName: "已通过",
